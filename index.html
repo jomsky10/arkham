@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dark Knight</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./js/script.min.js"></script>
+</head>
+<body>
+      
+        <div class="side-nav">
+            <div class="bane-container">
+         
+                <div class="bane"></div>
+           
+                <div class="let-it-snow"></div>
+                    <div class="side-container">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                    </div>
+            </div>
+       </div>
+
+    <div class="wrapper" >
+      
+    <div class="cover">
+        <canvas id="canvas"> </canvas>      
+        <div class="bg" ></div>
+        <div class="batsy" ></div>
+     
+        <div class="content">
+            <div class="heading">
+                <h1 data-morph>R  I  S  E</h1>
+            </div>
+
+            <div class="bottom" >
+                <p>THE DARK KNIGHT RISES</p>
+            </div>
+        </div>
+    </div>
+      
+
+        <div class="container">
+              
+            <nav>
+                <div class="nav-container">                
+                    <div class="left">
+                        <img src="./src/logo.png">
+                        <div class="menu">
+                           <a href="#"> <li>Prologue</li></a>
+                           <a href="#"> <li>Gotham</li></a>
+                           <a href="#"> <li>Knight</li></a>
+                        </div>
+                    </div>
+                    <div class="right">   
+                        <div> <strong>EN</strong> / RU </div>
+                        <div>
+                            <input type="text" placeholder="Search"> 
+                        </div>
+                        <div id="nav-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>  
+                    </div>
+                </div>
+            </nav>
+
+            <div class="sns-container">   
+                    <div class="social-media">
+                    <div class="media-icon"><a href="https://web.facebook.com/jomskiiiii"><i class="fab fa-facebook-f"></i></a></div>
+                    <div class="media-icon"><a href="https://www.linkedin.com/in/jomar-diamse-997634108/"><i class="fab fa-linkedin-in"></i></a></div>
+                    <div class="media-icon"><a href="https://github.com/jomsky10"><i class="fab fa-github"></i></a></div>
+                    <div class="media-icon"><a href="https://instagram.com/jomskiiiii"><i class="fab fa-instagram"></i></a></div>
+                    </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="./js/tilt.min.js"></script>
+
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".cover"), {
+		max: 8,
+		speed: 400,
+	}); 
+    </script>
+   
+
+    
+</body>
+</html>
